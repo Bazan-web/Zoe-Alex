@@ -1,0 +1,518 @@
+/*1 ==== reset css-сброса CSS==== */
+
+/*2: Свойство box-sizing изменяет алгоритм расчета размеров элемента*/
+/*3: Объявление маржи в одном направлении для установления вертикального ритма.*/
+/*4: Работа с шрифтами семейство шрифтов: размер шрифта: высота линии: цвет:*/
+/*5: Ширина: маржа: обивка: выравнивание текста*/
+/*6: Cемейство шрифтов определяет, какой шрифт будет использоваться браузером для отображения текста на веб-странице*/
+/*7: Размер шрифта*/
+/*8: Оформление текста ссылки*/
+/*9: Посветка ссылки*/
+
+/* ======================СТИЛИ ЗАГОЛОВКОВ=============================*/
+
+/*10:Покрытие-фон-В этом случае, он перемещает изображение немного влево на оси X, так что невеста не выглядит обрезанной. Если вы хотите увидеть эффект этого свойства, удалите его на некоторое время.background70%*/
+/*11:Выравние текста по центру фона*/
+/*12:Mаржа обивка цвет фон*/
+/*13:Изменение шрифта h1 Zoe &amp; Alex*/
+/*14: Подзаголовок */
+/*15: Подчеркивание подзаголовка*/
+/*16: Изиенение текста даты*/
+/*17: Подчеркивание даты*/
+
+
+/* ==========================СТИЛИ ЛОКАЦИЙ=============================*/
+
+/*18: Уменьшение картинок локации*/
+/*19: Изменения шрифта заголовка h3*/
+/*20: Изменения шрифта подзаголовка */
+/*21: Рзделение картинок полосками*/
+
+/* =========================СТИЛИ ПРОГРАММ=============================*/
+
+/*22: Работа над шрифтами раздела Программа*/
+/*23: Выравнивание заголовка по центру h2*/
+/*24: Изменение на косие буквы подзаголовка стиль шрифта*/
+/*25: Изменение интервал между буквами*/
+
+
+/* ========================СТИЛИ ПОДАРКОВ============================*/
+
+/*26: Изменение размера высоты картинки*/
+/*27: Чтобы выровнять нижние и Верхние Поля этого раздела*/
+
+
+/* =================ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ СТИЛИ====================*/
+
+/*28: Изменения стилей FAQ*/
+/*29: Чтобы выровнять верхние и Нижние поля*/
+/*30: Cемейство шрифтов выравнивание текста*/
+/*31: Разделение текста полосками*/
+/*31: Разделение текста полосками и изменение 
+содержание
+дисплей
+высота
+ширина
+маржа
+цвет фона*/
+/*32: margin-bottom устанавливает величину внешнего отступа от нижнего края элемента-font-weight насыщенность шрифта*/
+
+/* =====================СТИЛИ НИЖНЕГО КОЛОНТИТУЛА=====================*/
+
+/*33: Виравнивани стилей нижнего колонтитула*/
+/*34: Дисплей-вертикальное выравнивание-обивка*/
+/*35: Устанавливает величину внешнего отступа от нижнего края элемента-выравнивает текст по середине*/
+/*36: line-height устанавливает величину пространства между строками, например в тексте*/
+/*37: Делаем резиновый сайт применяем: @media для Заголовка cover */
+/*38: Делаем резиновый сайт применяем: @media для заметок о местоположении locations*/
+/*39: Делаем резиновый сайт применяем: @media Для раздела программы program:*/
+/*40: Делаем резиновый сайт применяем: @media Для раздела Faq:*/
+/*41: Делаем резиновый сайт применяем: @media Для раздела footer:*
+
+
+/*1: ==== reset css-сброса CSS==== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-shadow: 0;
+}
+
+/*2: Свойство box-sizing изменяет алгоритм расчета размеров элемента*/
+* {
+  box-sizing: border-box;
+}
+
+/*3: Объявление маржи в одном направлении для установления вертикального ритма. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+/*4: Работа с шрифтами 
+семейство шрифтов: 
+размер шрифта: 
+высота линии: 
+цвет: */
+body {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+}
+/*5: ширина
+маржа
+обивка 
+выравнивание текста*/
+locations,
+.program,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+/*6: Cемейство шрифтов определяет, какой шрифт будет использоваться браузером для отображения текста на веб-странице*/
+h1,
+h2 {
+  font-family: 'Great Vibes', cursive;
+}
+/*7: Размер шрифта*/
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+/*8: Оформление текста ссылки*/
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+/*9: Посветка ссылки*/
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+/* ======================СТИЛИ ЗАГОЛОВКОВ=============================*/
+
+/*10: покрытие-фон-В этом случае, он перемещает изображение немного влево на оси X, так что невеста не выглядит обрезанной. Если вы хотите увидеть эффект этого свойства, удалите его на некоторое время.background70%*/
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+/*11: Выравние текста по центру фона*/
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*12: Mаржа обивка цвет фон*/
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+/*13: Изменение шрифта h1 Zoe &amp; Alex*/
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0;
+}
+
+/*14: Подзаголовок */
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+/*15: Подчеркивание подзаголовка*/
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+/*16: Изиенение текста даты*/
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+/*17: Подчеркивание даты*/
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+/* ==========================СТИЛИ ЛОКАЦИЙ=============================*/
+
+/*18: Уменьшение картинок локации*/
+.blurb img {
+  height: 7.5rem;
+}
+
+/*19: Изменения шрифта заголовка h3 */
+.blurb h3 {
+  font-weight: 700;
+}
+
+/*20: Изменения шрифта подзаголовка */
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
+
+/*21: Рзделение картинок полосками*/
+.blurb::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+.locations h2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+/*выравнивание по середине секцию*/
+.locations {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.blurb2 img {
+  height: 7.5rem;
+}
+
+.blurb2 h3 {
+  font-weight: 700;
+}
+
+.blurb2 div {
+  font-family: 'Muli', sans-serif;
+}
+
+.blurb2::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+/* =========================СТИЛИ ПРОГРАММ===========================*/
+
+
+/*22: Работа над шрифтами раздела Программа*/
+.program {
+  width: 100vw;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+/*23: Выравнивание заголовка по центру h2*/
+.program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1rem; /* To account for the unequal margins compared to the previous section. */
+  text-align: center;
+}
+
+/*24: Изменение на косие буквы подзаголовка стиль шрифта*/
+.program p {
+  font-style: italic;
+}
+
+/*Убераем точки со списка программ перед цыфрами*/
+ol, ul {
+    list-style: none;
+}
+
+/*25: Изменение интервал между буквами*/
+.program ul {
+  letter-spacing: .025rem;
+}
+
+
+/* ========================СТИЛИ ПОДАРКОВ=============================*/
+
+/*26: Изменение размера высоты картинки*/
+.gifts img {
+  height: 7.5rem;
+}
+
+/*27: Чтобы выровнять нижние и Верхние Поля этого раздела. */
+.gifts p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =================ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ СТИЛИ====================*/
+
+/*28: Изменения стилей FAQ . */
+
+.faq {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+
+/*29: Чтобы выровнять верхние и Нижние поля*/
+.faq h2 {
+  margin-top: 1rem; 
+}
+
+/*30: Cемейство шрифтов выравнивание текста*/
+.faq p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+/*31: Разделение текста полосками и изменение 
+содержание
+дисплей
+высота
+ширина
+маржа
+цвет фона*/
+.question-group::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+}
+/*32: margin-bottom устанавливает величину внешнего отступа от нижнего края элемента-font-weight насыщенность шрифта*/
+.question {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+.answer {
+  margin-bottom: 1.5rem;
+}
+
+/* =======================СТИЛИ НИЖНЕГО КОЛОНТИТУЛА=====================*/
+
+/*33: Виравнивани стилей нижнего колонтитула*/
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+/*34: Дисплей-вертикальное выравнивание-обивка*/
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+/*35: Устанавливает величину внешнего отступа от нижнего края элемента-выравнивает текст по середине*/
+footer p {
+  margin-bottom: 0;
+}
+
+/*36: line-height устанавливает величину пространства между строками, например в тексте*/
+footer small {
+  line-height: 1.5;
+}
+
+
+/*37: Делаем резиновый сайт применяем: @media для Заголовка cover */
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+
+/*38: Делаем резиновый сайт применяем: @media для заметок о местоположении locations*/
+
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px) {
+.blurb2 {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb2::after {
+    display: none;
+  }
+
+}
+
+
+/*39: Делаем резиновый сайт применяем: @media Для раздела программы program:*/
+
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+}
+
+/*40: Делаем резиновый сайт применяем: @media Для раздела Faq:*/
+
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
+}
+
+/*41: Делаем резиновый сайт применяем: @media Для раздела footer:*/
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
